@@ -1,0 +1,18 @@
+2026-04-14 21:35:49,191 - INFO - Starting MLOps Batch Job
+2026-04-14 21:35:49,192 - INFO - Loading config from: config.yaml
+2026-04-14 21:35:49,194 - INFO - Config validated: seed=42, window=5, version=v1
+2026-04-14 21:35:49,195 - INFO - Deterministic seed set: 42
+2026-04-14 21:35:49,195 - INFO - Loading data from: data.csv
+2026-04-14 21:35:49,237 - INFO - Successfully loaded 10000 rows
+2026-04-14 21:35:49,238 - INFO - Computing rolling mean with window size: 5
+2026-04-14 21:35:49,245 - INFO - Generating binary signals
+2026-04-14 21:35:49,247 - INFO - Job completed successfully. signal_rate=0.4977, latency=57ms
+2026-04-14 21:43:34,690 - INFO - Starting MLOps Batch Job
+2026-04-14 21:43:34,691 - INFO - Loading config from: config.yaml
+2026-04-14 21:43:34,695 - INFO - Config validated: seed=42, window=5, version=v1
+2026-04-14 21:43:34,696 - INFO - Deterministic seed set: 42
+2026-04-14 21:43:34,696 - INFO - Loading data from: data.csv
+2026-04-14 21:43:34,743 - INFO - Successfully loaded 10000 rows
+2026-04-14 21:43:34,744 - INFO - Computing rolling mean with window size: 5
+2026-04-14 21:43:34,752 - INFO - Generating binary signals
+2026-04-14 21:43:34,754 - INFO - Job completed successfully. signal_rate=0.4977, latency=64ms
